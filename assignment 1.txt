@@ -1,0 +1,21 @@
+1) what is Software?
+--> software is a set of instructions, data or programs used to operate computer and execute specific tasks.
+
+2)what are the types of Application?
+-->1)word processing software
+2)spreadsheet software
+3)presention software
+4)multimedia software
+5)web browsers
+6)educational software
+7)graphics software
+8)freeware etc...
+
+3)what is programming?
+-->programming refers to a technological process for telling a computer which tasks to perform in order to solve problems
+
+4)what is python?
+-->python is a computer Prograaming language often used to build website and software,automate tasks,and conduct data analysis
+.
+
+
