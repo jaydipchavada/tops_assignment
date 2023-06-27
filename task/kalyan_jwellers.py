@@ -13,30 +13,56 @@ status = True
 
 while status:
     print("Welcome to kalyan Jwellers")
+    engine.say(".Welcome to kalyan Jwellers!")
+    engine.runAndWait()
 
+    engine.say(".Enter your Name!")
+    engine.runAndWait()
     name = input("Enter your Name : ")
+    
+    engine.say(".Enter your Gender(male,female)!")
+    engine.runAndWait()
     gender = input("Enter your Gender(male,female) : ")
+    
+    engine.say(".Enter your age!")
+    engine.runAndWait()
     age = int(input("Enter your age : "))
-
+    
     print("--------------------------------------------------")
 
+    engine.say(".Enter product name : !")
+    engine.runAndWait()
     product = input("Enter product name : ")
+    
+    engine.say(".Entern product Gram : !")
+    engine.runAndWait()
     gram = int(input("Enter product gram : "))
+    
+    engine.say("Current Gold Price (1 Gram) : 5752")
+    engine.runAndWait()
     print("Current gold price (1 gram) : 5752")
     total_gold_price = gram * 5752
 
     print("---------------------------------------------------")
 
+    engine.say("Your total price is :" , total_gold_price)
+    engine.runAndWait()
     print("Your total gold price is : ",total_gold_price)
 
-
+    engine.say("Making Charges (1 Gram)")
+    engine.runAndWait()
     print("Making charges (1 gram) : 845")
     total_making_charges = gram * 845
+
+    engine.say("total making charges is: ",total_making_charges)
     print("Total making charges is : ",total_making_charges)
 
     print("----------------------------------------------------")
 
     total_amount = total_gold_price + total_making_charges
+    
+    engine.say("total amount is : ", total_amount)
+    engine.runAndWait()
     print("Total amount is : ",total_amount)
 
 
