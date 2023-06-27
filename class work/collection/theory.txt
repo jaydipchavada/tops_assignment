@@ -1,0 +1,23 @@
+there are 4 types of collection
+
+1)list
+2)tuple
+3)set
+4)dictionary
+
+=> list: list is a collection data types which is contain similar and dis-similar data element
+list which is indicate or represent by []
+
+list which is contain unique and duplicate values
+
+list which is mutable,orderble,indexable
+
+by defult list index always start from 0
+
+--> there are two ways to create list using of [] and list constructor
+
+e.g.
+
+l1 = [] #1st way to create list
+
+l2 = [] @2nd way to create list
