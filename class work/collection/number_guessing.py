@@ -11,7 +11,7 @@ while status:
         print("HINT : Guess upper number  ")
     else:
         print("YOU WIN !!!!!!!")
-        #status = False
+        status = False
         # check = input("do you want to contiue ? press y  for yes and n for no :  ")
         # if check == 'y' or  check == 'yes' :
         #     status = True
