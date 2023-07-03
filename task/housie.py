@@ -13,7 +13,7 @@ while i <=11:
         i+=1
 z=m_list
 m_print = '    '.join(str(item) for item in m_list)
-input("Press Enter For Start")
+input("Press Enter For Start : ")
 print("\n =================================================================================================\n")
 print("RANDOM NUMBER :",m_print)
 
@@ -55,7 +55,7 @@ for i in range(1,12):
         c_print = '    '.join(str(item) for item in c_list)
         print("COMPUTER NUMBER : \t",c_print)
         if len(u_list)  == 0:
-            print("USER WON !!!")
+            print("====================== USER WON !!! ===================================")
             break
     else:   
         c_list.remove(magic_num)    
@@ -66,5 +66,5 @@ for i in range(1,12):
         print("COMPUTER NUMBER : \t",c_print)
     
         if len(c_list)  == 0:
-            print("COMPUTER WON !!!")
+            print("======================= COMPUTER WON !!! =================================")
             break
