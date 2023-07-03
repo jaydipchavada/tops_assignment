@@ -14,9 +14,9 @@ there are 3 ways to add data in existing list
 
 """
 
-
 # 1) append() : to store data in existing list
 
+ 
 """
 for i in range(1,4):
     name = input("Enter Your Subject :")
