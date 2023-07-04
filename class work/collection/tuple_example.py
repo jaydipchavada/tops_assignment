@@ -36,7 +36,7 @@ l1 = list(t1) # convert tuple into list
 
 l1.append("node.js")
 
-t1 = tuple(l1) # convert list into tiple
+t1 = tuple(l1) # convert list into tuple
 
 print(t1)
 
