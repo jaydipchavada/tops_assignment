@@ -1,46 +1,41 @@
-
-
-
-
+menu1 ="""
+    vadapav : 80
+    dabeli  : 90
+    burger  : 70
+    bhel    : 90
+    
+"""
 menu = {
-    "vdapav" : 40,
-    "dabeli" : 30,
-    "bhel" : 70,
-    "burger" : 100
+     
+   "vadapav" :80,
+    "dabeli"  : 90,
+    "burger" : 70,
+    "bhel"    : 90
+    
 }
-
-Total_bill = 0
-amount = 0
-order = ()
-multiplier = 0
-next = 0
-
-
-print(menu)
-
+print(menu1)
+bill_amt = 0
+total_bill=0
 status = True
-
 while status:
-    amount = 0
-    order =input("Enter item name : ").lower()
-    multiplier = int(input("How many would you like to order ? : "))
-
-    amount = menu.get(order)
-    # if order == 'vadapav':
-    #     amount =40
-    # elif order == 'dabeli' :
-    #     amount = 30
-    # elif order == 'bhel':
-    #     amount = 70
-    # elif order == 'burger' :
-    #     amount = 100
-    amount = amount*multiplier
-    Total_bill = Total_bill + amount
-    next = int(input("Press 1 to order further or 2 to exit : "))
-    if next == 1 :
-        continue
-    elif next == 2 :
-        status = False
+    
+    for i in range(0,len(menu)):
         
+        item_name = input("Enter Item Want to Oreder : ").lower()
+        item_qty =  int(input("Enter Item Want to Qty : "))
 
-print(f"Total bill is {Total_bill}")
+        if item_name in menu:
+            bill_amt = item_qty * menu.get(item_name)
+            print("bill_amt : ",bill_amt)
+            total_bill +=bill_amt         
+            order_more = input("Want to add More Item(y/n) : ").upper()
+            if order_more == "Y" or order_more == "YES":
+                    continue
+            else:
+                    status =False
+                    break  
+        else:
+            print("Enter Valid Name")
+         
+    print("TOTAL BILL AMT : ",total_bill)
+    
