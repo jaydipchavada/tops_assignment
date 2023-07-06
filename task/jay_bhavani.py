@@ -1,12 +1,3 @@
-menu = """"
-           vdapav : 40
-           dabeli : 30
-           bhel   : 70
-           burger : 100
-
-
-"""
-
 
 
 
