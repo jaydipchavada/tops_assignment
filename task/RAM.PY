@@ -26,15 +26,15 @@ Ram_naam = ["जय श्री राम","जय श्री राम","ज
 "जय श्री राम","जय श्री राम"]
 # 360 angle ko set karna
 
-angle = 360/49
+angle = 360/15
 penup()
 sety(-1)
-for i in range(50):
+for i in range(15):
     left(angle)
-    forward(260)
+    forward(270)
     write(Ram_naam[i], align="right",
     font=('Arial',12,"bold"))
-    backward(260)
+    backward(270)
 
 # circle k bick me ram naam
 
