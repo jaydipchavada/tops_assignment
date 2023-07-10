@@ -9,6 +9,7 @@ role = """
                     press 2 for customer 
 
         """
+print("=========================================================")
 
 # create dictionary 
 products = {}   # creating blank dictionary here.
@@ -18,6 +19,8 @@ shopping_cart = {}
 status = True 
 while status:
     print(role)
+    print("======================================================")
+   
     choice = int(input("Enter your choice : "))
     
     if choice == 1: 
@@ -42,18 +45,25 @@ while status:
         products[product_name] = specific
 
         #print(products)
+        print("===============================================")
         next_choice = input("Do you want to continue ? press y for yes and press n for no : ")
         if next_choice == 'y' :
             status = True
         else:
             status = False
+        print("============================================================")
         
     else:
+        print("===========================================================")
         print("                 WELCOME TO CUSTOMER PANEL            ")
-        print("     MENU      ")
+        
+        print("                        MENU                                ")
+        print("===========================================================")
+        
         for k,v in products.items():
             print(f"{k}   Qty= {v['qty']}  Rs. {v['price']} ")
 
+        print("=============================================================")
         name = input("Enter product name : ")
         if name in products.keys():
             print("Yes, product is available")
