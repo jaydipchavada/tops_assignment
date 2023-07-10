@@ -3,6 +3,9 @@
 # we create 2 roles here , manager and customer 
 
 role = """  
+            WELCOME TO JAY BHAVANI FAST FOOD
+        ============================================
+
                         MENU 
 
                     press 1 for manager 
