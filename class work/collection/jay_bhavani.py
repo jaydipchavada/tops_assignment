@@ -23,7 +23,6 @@ status = True
 while status:
     print(role)
     print("======================================================")
-   
     choice = int(input("Enter your choice : "))
     
     if choice == 1: 
