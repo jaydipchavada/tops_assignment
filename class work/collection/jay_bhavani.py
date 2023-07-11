@@ -89,23 +89,3 @@ while status:
             qty = int(input("Enter Your qty : "))        
 
             print("Out Off Stoke")
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
