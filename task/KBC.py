@@ -64,4 +64,4 @@ def que3():
 que1()
 que2()
 que3()
-print("YOU WON PRICE : ",price)
+print("YOU WON TOTAL PRICE : ",price)
