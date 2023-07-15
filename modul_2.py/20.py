@@ -7,3 +7,5 @@ def reverse_string(string):
     else:
         return string
 
+string = input("Enter string : ")
+print(reverse_string(string))
