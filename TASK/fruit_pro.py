@@ -52,7 +52,7 @@ while status :
                         m_status = False            
             
             elif m_role == 2:       # Manager Select    2) Viwe Stock   
-                print("\n = = = = = = = = = = = = = = = = = = =  STOCK DETAILS = = = = = = = = = = = = = = = = = = = \n")
+                print("\n --------------------------------- STOCK DETAILS ------------------------------------- \n")
                 
                 for k,v in products.items() :
                     print(f"Item Name : {k} \tQty : {v['qty']} \tPrice :{v['price']} ")  # Display Stock Data
@@ -60,7 +60,7 @@ while status :
             elif m_role == 3:
                 u_status = True
                 while u_status :
-                    print(" = = = = = = = = = = = = = = = = = = =  CURRENT STOCK DETAILS = = = = = = = = = = = = = = = = = = = ")
+                    print(" ------------------------------ CURRENT STOCK DETAILS ------------------------------- ")
                     for k,v in products.items() :
                         print(f"Item Name : {k} \tQty : {v['qty']} \tPrice :{v['price']} ")         # Display Stock Data
                     
