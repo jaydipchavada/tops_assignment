@@ -16,7 +16,6 @@ gender = input("Enter your gender : ").upper()
 vaccingname = input("Enter vaccingname : ").upper()
 vaccationdoze = int(input("Enter Your doze(1/2) : "))
 
-print("--------------------------------------------")
 #date = datetime.datetime.now()
 today = str(datetime.date.today())
 a = today
