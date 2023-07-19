@@ -16,9 +16,12 @@ gender = input("Enter your gender : ").upper()
 vaccingname = input("Enter vaccingname : ").upper()
 vaccationdoze = int(input("Enter Your doze(1/2) : "))
 
+print("--------------------------------------------")
 #date = datetime.datetime.now()
 today = str(datetime.date.today())
 a = today
+
+print("------------------------------------------------")
 
 f = open("ID"+str(a)+".txt","a")
 
@@ -31,6 +34,8 @@ f.write("\n vaccationdoze(1/2) : "+str(vaccationdoze)+"\n")
 f.write(str(today))
 
 f.close()
+
+
 
 #print("today = ",date.today())
 # print("month = ",today.month)
