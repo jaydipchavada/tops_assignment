@@ -1,0 +1,23 @@
+oops : object oriented programming system or structure
+-------------------------------------------------------------------
+
+class : class is collection of data member and member funcation
+
+class which is contain data member funcation in single entity
+
+class which is behave like group of element
+
+we can store similar and dis-similar data element in class
+
+syntax :
+class <classname>:
+    data member
+    member funcation
+
+-------------------------------------------------------------------------------
+
+object : object is an instance or variable of class
+using of object we can access all the properties of class
+
+syntax :
+objname = classname()
