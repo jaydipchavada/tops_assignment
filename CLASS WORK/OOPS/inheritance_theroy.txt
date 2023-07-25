@@ -1,0 +1,12 @@
+inheritance :
+            one class derived proprites of another class
+            its called inheritance
+
+            inheritance provides reusabilities
+
+            there are mainlty 5 types of inheritance
+            1) single level inheritance
+            2) multi-level inheritance
+            3) hierarchical inheritance
+            4) multi-ple inheritance
+            5) hybrid inheritance

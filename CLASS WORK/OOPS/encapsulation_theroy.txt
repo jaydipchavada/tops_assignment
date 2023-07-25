@@ -1,0 +1,10 @@
+
+
+
+Encapsulation : which is behave like capsule
+
+which is contain data member and member funcation in single entity
+
+Encapsulation which is represent is a class
+
+best example of Encapsulation is a class
