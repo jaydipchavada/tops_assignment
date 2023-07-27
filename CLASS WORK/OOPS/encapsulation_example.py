@@ -6,5 +6,5 @@ class shop:
         return self.prductname
     
 obj = shop()
-obj.setproduct("mobile")
+obj.setproduct("mobile - one plus Nord")
 print(obj.getproduct())
