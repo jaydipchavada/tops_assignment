@@ -1,0 +1,17 @@
+
+
+poly means many and morphism means forms
+
+polymorphism is a greek word which is derived same name method with different different forms.
+
+there are mainly 2 types of polymorphism :
+1) method overloading
+2) method overrinding
+
+explain : 
+
+1) method overloading : one class have more than 2 methods with same name and same parameteres.
+
+        note : python does not support method overloading
+
+2) method overrinding : two class have same name methods with same arguments its called method overrinding.

@@ -1,0 +1,9 @@
+Abstraction : which is represent only few information not allocated background information 
+
+Abstraction which is provide only front information
+
+Abstraction concept hide implentation from outside the world
+
+in python using ABC(Abstraction Base Class) we can use this concept
+
+
