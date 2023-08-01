@@ -49,10 +49,14 @@ while status:
         c_score +=1
         print("COMPUTER WON !!!!!")
 
-    choice = input("do you want to continue press y for yes and n  for no : ")
-    if choice == 'n':
-        status= False
 
-print (f" USER SCORE : {user_choice}")
+    choice = input("do you want to continue press y for yes and n  for no : ")
+    if choice == 'y':
+        status= True
+    if choice == 'n':
+        status = False
+
+print (f" USER SCORE : {u_score}")
+print(f" COMPUTER SCORE : {c_score}")
 
 
