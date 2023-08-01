@@ -27,7 +27,7 @@ while status :
         main_m_status = True
         while main_m_status:
             print(ManagerDisplay)       # Manager Panel
-            m_role = int(input("Select Your Role (1/2) :"))
+            m_role = int(input("Select Your Role (1/2/3) :"))
             if m_role == 1:     # Manager Select    1) Add Fruirt Stock 
                 m_status = True
                 while m_status:
@@ -139,3 +139,4 @@ while status :
         status = False
     else : 
         status = True
+c
