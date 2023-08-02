@@ -1,0 +1,15 @@
+
+----------- Pizza and pasta Bill --------------
+Payment received today: 335.88
+Number of small pizzas sold: 4
+Number of medium pizzas sold: 4
+Number of large pizzas sold: 4
+Number of small pastas sold: 4
+Number of medium pastas sold: 4
+Number of large pastas sold: 4
+Number small pizza and pasta sold in one shift:8
+Number mediam pizza and pasta sold in one shift:8
+Number largepizza and pasta sold in one shift:8
+Number of 1.5lt soft drink bottles given: 1
+Number of bruschettas given to customers: 2
+Number of chocco brownies ice cream given to customers: 2
