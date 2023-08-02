@@ -1,0 +1,8 @@
+
+Name : JAYDIP	Score : 90
+Name : JA	Score : 80
+Name : J	Score : 90
+Name : A	Score : 12
+Name : Y	Score : 23
+Name : D	Score : 6
+Name : I	Score : 67
