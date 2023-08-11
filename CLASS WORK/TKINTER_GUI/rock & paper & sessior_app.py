@@ -6,6 +6,7 @@ screen = Tk()
 
 screen.geometry("500x500")  # width x height
 screen.title("JAYDIP")
+# screen.configure(bg="red")
 
 title = Label(screen,text = "ROCK - PAPER - SCISSOR GAME",font = ('Arial',20,'bold'))
 title.pack()
