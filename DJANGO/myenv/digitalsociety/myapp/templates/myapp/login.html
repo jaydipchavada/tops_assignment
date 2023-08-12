@@ -40,12 +40,13 @@
         </nav>
 
         <div class="page-header">
-            <div class="page-header-image" style="background:url('{% static 'C:\Users\Admin\Documents\GitHub\tops_assignment\DJANGO\myenv\digitalsociety\myapp\static\myapp\assets\images\security.jpeg' %}') no-repeat center center/cover;"></div>
+            <div class="page-header-image" style="background:url('{% static 'C:\Users\Admin\Documents\GitHub\tops_assignment\DJANGO\myenv\digitalsociety\myapp\static\myapp\assets\images\security.jpeg' %}') no-repeat center center/cover"></div>
 
                 <div class="container">
         <div class="col-md-12 content-center">
             <div class="card-plain">
-                <form class="form" method="" action="">
+                <form class="form" method="post" action="{% url 'login' %}">
+                    {% csrf_token %}
                     <div class="header">
                         <div class="logo-container">
                             <img src="{% static 'myapp\\assets\images\logo.svg' %}" alt="">
@@ -54,20 +55,20 @@
                     </div>
                     <div class="content">                                                
                         <div class="input-group input-lg">
-                            <input type="text" class="form-control" style="color: red;"  placeholder="Enter User Name">
+                            <input type="text" class="form-control" style="color: red;"  placeholder="Enter User Name" name="Email">
                             <span class="input-group-addon">
                                 <i class="zmdi zmdi-account-circle"></i>
                             </span>
                         </div>
                         <div class="input-group input-lg">
-                            <input type="password" class="form-control" style="color: red;" placeholder="Password" >
+                            <input type="password" class="form-control" style="color: red;" placeholder="Password" name="password" >
                             <span class="input-group-addon">
                                 <i class="zmdi zmdi-lock"></i>
                             </span>
                         </div>
                     </div>
                     <div class="footer text-center">
-                        <a href="..\dashboard\index.html" class="btn btn-primary btn-round btn-lg btn-block " class="form-control" style="color: black;">SIGN IN</a>
+                        <input type="submit" class="btn btn-primary btn-round btn-lg btn-block " value="SIGN IN" style="color: black;">
                         <h5><a href="forgot-password.html" class="link"class="form-control" style="color: white;">Forgot Password?</a></h5>
                     </div>
                 </form>

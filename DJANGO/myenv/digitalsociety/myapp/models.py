@@ -18,11 +18,17 @@ class user(models.Model):
     password = models.CharField(max_length=30)
     role = models.CharField(max_length=30)
 
+    def __str__(self):
+        return self.email
+
 class chairman(models.Model):
     user_id = models.ForeignKey(user,on_delete=models.CASCADE)
     first_name = models.CharField(max_length=30)
     last_name = models.CharField(max_length=30)
     contect_no = models.CharField(max_length=30)
+
+    def __str__(self) -> str:
+        return self.first_name
 
 class socity_member(models.Model):
     user_id = models.ForeignKey(user,on_delete=models.CASCADE)
