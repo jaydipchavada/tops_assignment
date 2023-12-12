@@ -3,8 +3,9 @@ from django.http import HttpResponse
 
 # Create your views here.
 
-def home(request):
-    return HttpResponse("<h1>heloo</h1>")
 
-def index(request):
+def login(request):
+    return render(request,'myapp/login.html')
+
+def home(request):
     return render(request,'myapp/index.html')

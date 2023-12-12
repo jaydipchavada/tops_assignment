@@ -26,6 +26,7 @@ class chairman(models.Model):
     first_name = models.CharField(max_length=30)
     last_name = models.CharField(max_length=30)
     contect_no = models.CharField(max_length=30)
+    pic = models.FileField(upload_to="media/images",default="media/JAYDIP.jpg ")
 
     def __str__(self) -> str:
         return self.first_name
@@ -41,3 +42,19 @@ class socity_member(models.Model):
     no_of_vehical = models.CharField(max_length=30)
     occupation = models.CharField(max_length=30)
     job_address = models.CharField(max_length=100,blank=True,null=True)
+    pic = models.FileField(upload_to="media/images",default="media/JAYDIP.jpg ")
+
+    def __str__(self) -> str:
+        return self.first_name
+
+class Notice (models.Model):
+    notice_title = models.CharField(max_length=50)
+    notice_description = models.TextField()
+    pic = models.FileField(upload_to="media/images",null=True,blank=True)
+    video = models.FileField(upload_to="media/video",null=True,blank=True)
+
+class events (models.Model):
+    event_title = models.CharField(max_length=50)
+    event_description = models.TextField()
+    pic = models.FileField(upload_to="media/images",null=True,blank=True)
+    video = models.FileField(upload_to="media/video",null=True,blank=True)

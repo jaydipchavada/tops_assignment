@@ -39,8 +39,8 @@
             </div>
         </nav>
 
-        <div class="page-header">
-            <div class="page-header-image" style="background:url('{% static 'C:\Users\Admin\Documents\GitHub\tops_assignment\DJANGO\myenv\digitalsociety\myapp\static\myapp\assets\images\security.jpeg' %}') no-repeat center center/cover"></div>
+        <div class="page-header" style="background: transparent;">
+            <div class="page-header-image" style="background:url('{% static 'myapp\assets\images\security.jpeg' %}') no-repeat center center/cover"></div>
 
                 <div class="container">
         <div class="col-md-12 content-center">
@@ -48,7 +48,7 @@
                 <form class="form" method="post" action="{% url 'login' %}">
                     {% csrf_token %}
                     <div class="header">
-                        <div class="logo-container">
+                        <div class="logo-container"> 
                             <img src="{% static 'myapp\\assets\images\logo.svg' %}" alt="">
                         </div> 
                         <h5 style="color: aqua;">Log in</h5>
@@ -66,6 +66,11 @@
                                 <i class="zmdi zmdi-lock"></i>
                             </span>
                         </div>
+                        {% if e_msg %}
+                        <div class="alert alert-danger" role="alert" style="color: white;">
+                            {{e_msg}}
+                          </div>
+                         {% endif%} 
                     </div>
                     <div class="footer text-center">
                         <input type="submit" class="btn btn-primary btn-round btn-lg btn-block " value="SIGN IN" style="color: black;">

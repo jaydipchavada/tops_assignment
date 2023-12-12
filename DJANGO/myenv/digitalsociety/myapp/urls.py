@@ -21,4 +21,10 @@ from .import views
 urlpatterns = [
     path('', views.home, name='home'),
     path('login/',views.login,name="login"),
-]
+    path('logout',views.logout,name="logout"),
+    path('profile/',views.profile,name='profile'),
+    path('change-password/',views.change_password,name='change-password'),
+    path('update-chairman-profile/',views.update_chairman_profile,name="update-chairman-profile"),
+    path('add-notice/',views.add_notice,name="add-notice"),
+    
+    ]   

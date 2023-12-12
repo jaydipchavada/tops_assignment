@@ -4,4 +4,5 @@ from .models import *
 admin.site.register(user)
 admin.site.register(chairman)
 admin.site.register(socity_member)
+admin.site.register(Notice)
 
